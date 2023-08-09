@@ -1,0 +1,6 @@
+given range 1 to n ;
+    Cyclic sort'
+
+1. Bublle sort       
+2.selection sort
+3.inserction sort
