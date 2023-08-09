@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 public class BubbleSortting {
     public static void main(String[] args) {
-        int a[] = {-1,5,-17,0,85};
+        int a[] = {5,2,1,4,3};
 
-        sort(a);
+        //sort(a);
+
+        cyclicSort(a);
 
         System.out.println(Arrays.toString(a));
     }
@@ -35,5 +37,23 @@ public class BubbleSortting {
         a[row] = a[col];
         a[col] = temp;
 
+    }
+
+
+    //cyclic sort
+
+    static void cyclicSort(int[] a){
+
+        int i = 0;
+
+        while (i < a.length){
+            int check = a[i] - 1;
+            if(a[i] == a[check]){
+                i++;
+            }
+            else {
+                swap(a,i,check);
+            }
+        }
     }
 }
