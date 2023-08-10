@@ -6,3 +6,8 @@ given range 1 to n ;
 1. Bublle sort       
 2.selection sort
 3.inserction sort
+
+we add anything with char it returns int accivalue
+
+we add anything wiht a + 0 = result convert to char a
+if we substract '0' with char it gives the int form 
