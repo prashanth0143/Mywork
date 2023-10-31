@@ -27,7 +27,7 @@ public class Main {
                 System.out.print(num + " ");
             }
 
-            System.out.println(" ");
+            System.out.println("");
         }
 
 
@@ -39,7 +39,7 @@ public class Main {
    public static void pascalTri(int n){
 
         int space = n; //for space
-        int number = 0;
+        int number = 1; // for reinitilize again
        for (int i = 0; i < n ; i++) {
            //nested for spacing
            for (int j = 1; j <= space; j++) {
